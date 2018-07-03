@@ -1,0 +1,45 @@
+
+
+h1
+{
+    color: red;
+    text-align: center;
+}
+#id {
+    font: Times;
+}
+.class {
+    background-color: black;
+}
+
+@media (min-width: 500px)
+            {
+                body
+                {
+                    background-color: white;
+                }
+            }
+
+            @media (max-width: 499px)
+            {
+                body
+                {
+                    background-color: green;
+                }
+            }
+
+a:link
+{
+    font: tahoma;
+}
+
+a:hover
+{
+    color: purple;
+}
+
+a:hover
+{
+  font-size: 1em;
+}
+
